@@ -21,6 +21,7 @@ dpkg-query -W -f='${binary:Package}\n' | grep -E -e '^(ia32-)?(sun|oracle)-java'
 apt-get -y autoremove
 dpkg -l | grep ^rc | awk '{print($2)}' | xargs apt-get -y purge
 bash -c 'ls -d /home/*/.java' | xargs rm -rf
+rm -rf /usr/lib/jvm*
 
 
 echo " Making Directory "
