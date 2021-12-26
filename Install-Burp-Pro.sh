@@ -26,6 +26,7 @@ mv burp-pro-loader.jar /opt/Burp/
 mv license-generator.jar /opt/Burp/
 cd ../
 mv burpsuite_pro_v* /opt/Burp/
+sleep 30
 echo " Done "
 sleep 2
 echo " Writting Excutable Commands "
