@@ -7,7 +7,7 @@
 # 3. Change Directory To  Burp-Suite-Pro By Using Command:
      cd Burp-Suite-Pro
 # 4. Now Run Install-Burp-Pro.sh By Using Command:
-     bash Install-Burp-Pro.sh #(sudo must)
+    sudo bash Install-Burp-Pro.sh 
 # HAVE A GOOD JOURNEY WITH BURP SUITE PRO :)
 
 
