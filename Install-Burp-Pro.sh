@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 clear
 printf "
 
@@ -37,6 +38,7 @@ echo "cd /opt/burp/ && java -jar license-generator.jar " > /bin/ligen
 chmod +x /bin/ligen
 echo " Done "
 sleep 2
+exit
 echo " Launching Burp Suite Pro & License Generator "
 sleep 5
 burp | ligen 
