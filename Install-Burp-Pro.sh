@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo su
 clear
 printf "
 
@@ -30,7 +29,7 @@ sleep 5
 echo " Making Directory "
 sleep 2
 mkdir /opt/Burp 
-echo "Done"
+echo " Done "
 sleep 2
 echo " Moving Files "
 sleep 5
@@ -44,13 +43,12 @@ echo " Done "
 sleep 2
 echo " Writting Excutable Commands "
 sleep 5
-echo "cd /opt/burp/ && java --illegal-access=warn  -javaagent:burp-pro-loader.jar -noverify -jar burpsuite_pro_v*.jar" > /bin/burp
+echo "cd /opt/Burp/ && java --illegal-access=warn  -javaagent:burp-pro-loader.jar -noverify -jar burpsuite_pro_v*.jar" > /bin/burp
 chmod +x /bin/burp
 echo "cd /opt/burp/ && java -jar license-generator.jar " > /bin/ligen
 chmod +x /bin/ligen
 echo " Done "
 sleep 2
-exit
 echo " Launching Burp Suite Pro & License Generator "
 sleep 5
 burp | ligen 
