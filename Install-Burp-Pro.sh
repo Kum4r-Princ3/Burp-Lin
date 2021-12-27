@@ -36,6 +36,7 @@ echo " Moving Files "
 sleep 5
 mv burp-pro-loader.jar /opt/Burp/
 mv license-generator.jar /opt/Burp/
+mv burp-suite-professional.svg /usr/share/pixmaps/
 cd ../
 mv burpsuite_pro_v* /opt/Burp/
 sleep 30
