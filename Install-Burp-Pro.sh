@@ -37,7 +37,7 @@ echo " Writting Excutable Commands -------------> "
 sleep 5
 echo "cd /opt/Burp/ && java --illegal-access=warn  -javaagent:burp-pro-loader.jar -noverify -jar burpsuite_pro_v*.jar" > /bin/burp
 chmod +x /bin/burp
-echo "cd /opt/burp/ && java -jar license-generator.jar " > /bin/ligen
+echo "cd /opt/Burp/ && java -jar license-generator.jar " > /bin/ligen
 chmod +x /bin/ligen
 echo " Done -------------> "
 sleep 2
