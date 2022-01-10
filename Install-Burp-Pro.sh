@@ -17,6 +17,8 @@ printf "
 "
 echo " Installing Openjdk-11-Jre-Headless -------------> "
 apt install openjdk-11-jre-headless -y
+echo " Installing Openjdk-11-Jdk-Headless -------------> "
+apt install openjdk-11-jdk-headless -y
 sleep 5
 echo " Making Directory -------------> "
 sleep 2
@@ -40,10 +42,7 @@ chmod +x /bin/burp
 echo "cd /opt/Burp/ && java -jar license-generator.jar " > /bin/ligen
 chmod +x /bin/ligen
 echo " Done -------------> "
-sleep 2
-echo " Launching Burp Suite Pro & License Generator -------------> "
-sleep 5
-burp | ligen 
+exit
 
 
 
