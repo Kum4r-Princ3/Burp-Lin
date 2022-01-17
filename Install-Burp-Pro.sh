@@ -15,9 +15,7 @@ printf "
 <--------------------------------------------------------------------------------------------------------------------->                                                                                                                   
  
 "
-echo " Installing Openjdk-11-Jre-Headless -------------> "
-apt install openjdk-11-jre-headless -y
-echo " Installing Openjdk-11-Jdk-Headless -------------> "
+echo " Installing Openjdk-11-Jdk -------------> "
 apt install openjdk-11-jdk-headless -y
 sleep 5
 echo " Making Directory -------------> "
