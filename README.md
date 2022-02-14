@@ -11,7 +11,7 @@
 # 4. Now Run Install-Burp-Pro.sh By Using Command:
      sudo bash Install-Burp-Pro.sh 
 # 5. After Installation Use Command:
-     burp #And ligen
+     burp | ligen
 #   To Setup Burp-Suite-Pro  
 
 # HAPPY HACKING ☠☠☠
